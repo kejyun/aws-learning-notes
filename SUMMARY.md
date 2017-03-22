@@ -11,3 +11,4 @@
         * [建立](ec2/auto-scaling/ec2-auto-scaling-create.md)
 * [CodeDeploy](code-deploy/code-deploy-README.md)
     * [Auto Scaling 自動部署程式](code-deploy/code-deploy-auto-scaling.md)
+    * [除錯](code-deploy/code-deploy-debug.md)

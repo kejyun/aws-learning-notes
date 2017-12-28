@@ -25,9 +25,11 @@ Load Balancer 會自己加入一個自己的 Cookie 資訊到瀏覽器，並設�
 
 ### Enable application generated cookie stickiness
 
-Load Balancer 會針對使用者自己網站的 cookie，去分配流量到機器的狀況，由使用者自己網站的應用程式自行去控制 Cookie 的過期時間。
+Load Balancer 會針對使用者自己網站的 cookie，去分配流量到機器的狀況，由使用者自己網站的應用程式自行去控制 Cookie 的過期時間，所以需要自行設定網站 cookie 的名稱。
 
 ![AWS Load Balancer Stickiness 設定視窗](./images/load-balancer-stickiness-setting-dialog-application-generated-cookie-stickiness.png)
 
 ## 參考資料
 * [amazon ec2 - EC2 load balancer - difference between "Load Balancer" and "Application" Generated Cookie Stickiness - Server Fault](https://serverfault.com/questions/435431/ec2-load-balancer-difference-between-load-balancer-and-application-generat)
+* [New Elastic Load Balancing Feature: Sticky Sessions | AWS News Blog](https://aws.amazon.com/blogs/aws/new-elastic-load-balancing-feature-sticky-sessions/)
+* [Configure Sticky Sessions for Your Classic Load Balancer - Elastic Load Balancing](http://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-sticky-sessions.html)

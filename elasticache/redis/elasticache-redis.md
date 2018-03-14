@@ -55,6 +55,13 @@ AWS 群集模式參考架構（來源：AWS）
 
 ![新增群集分片完成](./images/aws-redis-cluster-enabled-remove-shared-finish.png)
 
+### 移除群集分片後再加入新分片節點
+
+移除群集分片後再加入新分片節點後，會看到新增的群集會再去重新分配現有的群集分片資料
+
+![移除群集分片後再加入分片](./images/aws-redis-cluster-enabled-remove-shared-and-add-again.png)
+
+
 ## AWS Redis Cluster Mode Disable 禁用群集模式
 
 ### 建立 Redis AWS Cluster Mode Disable 群集

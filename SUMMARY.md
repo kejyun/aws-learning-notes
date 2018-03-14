@@ -2,8 +2,13 @@
 
 * [介紹](README.md)
 * [帳單](bill/bill-README.md)
+* [Relational Database Service(RDS)](rds/rds-README.md)
+    * [情境問題](rds/rds-scenario-question.md)
+* [ElastiCache](elasticache/elasticache-README.md)
+    * [Redis](elasticache/elasticache-redis.md)
 * [EC2](ec2/ec2-README.md)
     * [CLI](ec2/cli/ec2-cli-README.md)
+    * [Instance 實例](ec2/instance/ec2-instance-README.md)
     * [Load Balancer](ec2/load-balancer/ec2-load-balancer-README.md)
         * [建立](ec2/load-balancer/ec2-load-balancer-create.md)
         * [Stickiness](ec2/load-balancer/ec2-load-balancer-stickiness.md)

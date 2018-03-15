@@ -90,3 +90,4 @@ AWS 群集模式參考架構（來源：AWS）
 
 ## 參考資料
 * [复制：Redis (已禁用集群模式) 与 Redis (已启用集群模式) - Amazon ElastiCache](https://docs.aws.amazon.com/zh_cn/AmazonElastiCache/latest/UserGuide/Replication.Redis-RedisCluster.html)
+* [选择引擎：Memcached、Redis (已禁用集群模式) 或 Redis (已启用集群模式) - Amazon ElastiCache](https://docs.aws.amazon.com/zh_cn/AmazonElastiCache/latest/UserGuide/SelectEngine.Uses.html)

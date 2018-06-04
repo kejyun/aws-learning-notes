@@ -52,7 +52,22 @@ less /opt/codedeploy-agent/deployment-root/`deployment-group-ID`/`deployment-ID`
 ![Images](./images/code-deploy-debug-log-deployment-id.png)
 
 
+## 檢查 Code Deploy 版本
+
+```
+cat /opt/codedeploy-agent/.version
+agent_version: OFFICIAL_1.0-1.1458_deb
+```
+
+## 更新 Code Deploy 版本
+
+```
+sudo /opt/codedeploy-agent/bin/install auto
+```
+
 ## 參考資料
 * [Troubleshoot Instance Issues - AWS CodeDeploy](http://docs.aws.amazon.com/codedeploy/latest/userguide/troubleshooting-ec2-instances.html)
 * [View AWS CodeDeploy logs in Amazon CloudWatch console | AWS DevOps Blog](https://aws.amazon.com/blogs/devops/view-aws-codedeploy-logs-in-amazon-cloudwatch-console/)
 * [http://docs.aws.amazon.com/codedeploy/latest/userguide/troubleshooting-deployments.html](Troubleshoot Deployment Issues - AWS CodeDeploy)
+* [https://docs.aws.amazon.com/zh_cn/codedeploy/latest/userguide/codedeploy-agent.html#codedeploy-agent-supported-versions](Troubleshoot Deployment Issues - AWS CodeDeploy)
+* [https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-update-ubuntu.html](Update the AWS CodeDeploy Agent on Ubuntu Server - AWS CodeDeploy)

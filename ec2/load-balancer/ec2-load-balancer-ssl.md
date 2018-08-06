@@ -54,3 +54,5 @@
 * [AWS Certificate Manager 入門](https://aws.amazon.com/tw/certificate-manager/getting-started/)
 * [AWS Certificate Manager 常見問題](https://aws.amazon.com/tw/certificate-manager/faqs/)
 * [AWS Certificate Manager](https://ap-northeast-1.console.aws.amazon.com/acm/home?region=ap-northeast-1#/)
+* [Load Balancer Certificate](https://aws.amazon.com/tw/premiumsupport/knowledge-center/load-balancer-certificate/)
+* [Replace the SSL Certificate for Your Classic Load Balancer - Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-update-ssl-cert.html)

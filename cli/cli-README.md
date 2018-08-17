@@ -15,6 +15,12 @@ $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 $ python3 get-pip.py
 ```
 
+```shell
+sudo apt-get install python-pip python-dev build-essential
+sudo pip install --upgrade pip
+sudo pip install --upgrade virtualenv
+```
+
 ***3. 安裝 aws cli***
 
 ```shell
@@ -34,7 +40,27 @@ Default region name [None]: ap-northeast-1
 Default output format [None]:
 ```
 
+## 查詢 AWS CLI 版本
+
+```shell
+aws --version
+aws-cli/1.15.80 Python/2.7.12 Linux/4.4.0-1061-aws botocore/1.10.79
+```
+
+## 更新 AWS CLI
+
+```shell
+pip install awscli --upgrade --user
+```
+
+## 解除安裝 AWS CLI
+
+```shell
+pip uninstall awscli
+```
+
 ## 參考資料
 * [AWS 命令列界面](https://aws.amazon.com/tw/cli/)
 * [Mac OSX 正確地同時安裝 Python 2.7 和 Python3 – 字串小豬](https://stringpiggy.hpd.io/mac-osx-python3-dual-install/)
 * [Installation — pip 10.0.1 documentation](https://pip.pypa.io/en/stable/installing/)
+* [安装 AWS Command Line Interface - AWS Command Line Interface](https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/installing.html)

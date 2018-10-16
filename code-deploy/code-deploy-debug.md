@@ -65,9 +65,34 @@ agent_version: OFFICIAL_1.0-1.1458_deb
 sudo /opt/codedeploy-agent/bin/install auto
 ```
 
+## The deployment failed because a specified file already exists at this location: /home/ubuntu/index.html
+
+在使用 Auto Scaling 去做 Code Deploy 時，遇到了檔案權限不能寫入的問題
+
+> The deployment failed because a specified file already exists at this location: /home/ubuntu/index.html
+
+![The deployment failed because a specified file already exists at this location](./images/code-deploy-the-deployment-failed-because-a-specified-file-already-exists-at-this-location.png)
+
+
+因為在做 AMI 去 Auto Scaling 時，有做了手動 Code Deploy 的測試，所以在 `/home/ubuntu/` 目錄下有建立 Code Deploy 相關的檔案。
+
+要解決這個問題，需要把原先在 `/home/ubuntu/` 目錄 Code Deploy 檔案先移除，在做 AMI 檔案去 Auto Scaling 就可以了
+
+***Code Deploy 相關檔案***
+
+```
+codedeploy
+    change_permissions
+    install_dependencies
+appspec.yml
+index.html
+```
+
+
+
 ## 參考資料
 * [Troubleshoot Instance Issues - AWS CodeDeploy](http://docs.aws.amazon.com/codedeploy/latest/userguide/troubleshooting-ec2-instances.html)
 * [View AWS CodeDeploy logs in Amazon CloudWatch console | AWS DevOps Blog](https://aws.amazon.com/blogs/devops/view-aws-codedeploy-logs-in-amazon-cloudwatch-console/)
-* [http://docs.aws.amazon.com/codedeploy/latest/userguide/troubleshooting-deployments.html](Troubleshoot Deployment Issues - AWS CodeDeploy)
-* [https://docs.aws.amazon.com/zh_cn/codedeploy/latest/userguide/codedeploy-agent.html#codedeploy-agent-supported-versions](Troubleshoot Deployment Issues - AWS CodeDeploy)
+* [Troubleshoot Deployment Issues - AWS CodeDeploy](http://docs.aws.amazon.com/codedeploy/latest/userguide/troubleshooting-deployments.html)
+* [Troubleshoot Deployment Issues - AWS CodeDeploy](https://docs.aws.amazon.com/zh_cn/codedeploy/latest/userguide/codedeploy-agent.html#codedeploy-agent-supported-versions)
 * [https://docs.aws.amazon.com/codedeploy/latest/userguide/codedeploy-agent-operations-update-ubuntu.html](Update the AWS CodeDeploy Agent on Ubuntu Server - AWS CodeDeploy)

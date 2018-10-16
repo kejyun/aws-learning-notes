@@ -32,6 +32,7 @@
 * [CLI](cli/cli-README.md)
 * [CodeDeploy](code-deploy/code-deploy-README.md)
     * [Auto Scaling 自動部署程式](code-deploy/code-deploy-auto-scaling.md)
+    * [Deploy 標籤群組](code-deploy/code-deploy-tag-group.md)
     * [除錯](code-deploy/code-deploy-debug.md)
 * [Elastic Beanstalk](elastic-beanstalk/elastic-beanstalk-README.md)
 * [檢測](detect/detect-README.md)

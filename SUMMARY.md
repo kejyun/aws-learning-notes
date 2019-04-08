@@ -20,6 +20,8 @@
         * [建立](ec2/auto-scaling/ec2-auto-scaling-create.md)
         * [規則](ec2/auto-scaling/ec2-auto-scaling-rule.md)
     * [Auto Scaling](ec2/reserved-instance/ec2-reserved-instance-README.md)
+    * [Volume 硬碟](ec2/volume/ec2-volume-README.md)
+        * [增加 EC2 硬碟空間](ec2/volume/ec2-volume-increasing-size.md)
 * [S3](s3/s3-README.md)
 * [Cloudfront](cloudfront/cloudfront-README.md)
     * [Cloudflare CNAME to Cloudfront](cloudfront/cloudfront-cname.md)

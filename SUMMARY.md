@@ -23,6 +23,7 @@
     * [Volume 硬碟](ec2/volume/ec2-volume-README.md)
         * [增加 EC2 硬碟空間](ec2/volume/ec2-volume-increasing-size.md)
 * [S3](s3/s3-README.md)
+* [Simple Email Service (SES)](ses/ses-README.md)
 * [Cloudfront](cloudfront/cloudfront-README.md)
     * [Cloudflare CNAME to Cloudfront](cloudfront/cloudfront-cname.md)
 * [lambda](lambda/lambda-README.md)

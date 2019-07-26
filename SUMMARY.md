@@ -17,6 +17,7 @@
         * [Access Log](ec2/load-balancer/ec2-load-balancer-access-log.md)
         * [SSL](ec2/load-balancer/ec2-load-balancer-ssl.md)
         * [dualstack](ec2/load-balancer/ec2-load-balancer-dualstack.md)
+        * [Target Group](ec2/load-balancer/ec2-load-balancer-target-group.md)
     * [Auto Scaling](ec2/auto-scaling/ec2-auto-scaling-README.md)
         * [建立](ec2/auto-scaling/ec2-auto-scaling-create.md)
         * [規則](ec2/auto-scaling/ec2-auto-scaling-rule.md)

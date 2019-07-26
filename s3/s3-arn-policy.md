@@ -73,3 +73,4 @@ arn:aws:s3:::kejyun-bucket/ec2-alb-web/*
 ## 參考資料
 * [Access Logs for Your Application Load Balancer - Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html)
 * [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html)
+* [Your AWS Account ID and Its Alias - AWS Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/console_account-alias.html)

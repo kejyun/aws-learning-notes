@@ -27,3 +27,4 @@ dualstack.name-123456789.region.elb.amazonaws.com
 ## 參考資料
 * [Internet-Facing Classic Load Balancers - Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-internet-facing-load-balancers.html)
 * [amazon web services - What does the dualstack prefix mean in AWS ELB - Stack Overflow](https://stackoverflow.com/questions/41623388/what-does-the-dualstack-prefix-mean-in-aws-elb)
+* [Troubleshoot Your Application Load Balancers - Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-troubleshooting.html)

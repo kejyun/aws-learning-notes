@@ -45,3 +45,4 @@
 * [檢測](detect/detect-README.md)
 * [區域](region/region-README.md)
 * [標籤](tag/tag-README.md)
+* [狀態除錯](debug/debug-README.md)
